@@ -15,7 +15,7 @@ const chatCompletion =
         static completion({ prompt }) {
             return {
                 messages: [{ role: 'user', content: `${prompt}` }],
-                model: 'text-davinci-003',
+                model: 'gpt-3.5-turbo-0613',
             }
         }
     }

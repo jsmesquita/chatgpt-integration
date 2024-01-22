@@ -16,9 +16,9 @@ module.exports = {
             })
         } catch (error) {
             console.log(error)
-            return res.status(400).json({
+            return res.status(200).json({
                 success: false,
-                error: error.response ? error.response : "There was an issues on the server"
+                data: error.response ? error.response : "I can't provide answer because there is a erro on the server."
             })
         }
     }
