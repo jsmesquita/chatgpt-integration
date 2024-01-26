@@ -54,7 +54,7 @@
 }
 
 .chat-input-holder {
-  padding: 24px;
+  padding: 0;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -95,3 +95,20 @@
 .avatar.chatgpt {
   background-color: #0da37f;
 }
+
+.card {
+  background-color: #202123;
+  padding: 20px;
+  color: #fff;
+}
+
+.card .card-text{
+  margin: 15px;
+}
+
+.card .card-title{
+  margin-bottom: 40px;
+  font-size: 1.2em;
+}
+
+.card .card-text span {margin:0 0 3px 3px;}

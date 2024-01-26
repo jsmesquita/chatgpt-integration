@@ -16,3 +16,9 @@
     padding-left: 40px;
     padding-right: 40px;
 }
+
+.card{
+    max-height: 640px;
+    overflow-y: auto;
+    margin: 24px;
+}

@@ -9,10 +9,11 @@ module.exports = {
         try {
 
             const response = await openaiAPI.chat.completions.create(openai.completion(inputModel))
+            console.log(response)
 
             return res.status(200).json({
                 success: true,
-                data: response.data.choices[0]
+                data: response.choices[0].message.content
             })
         } catch (error) {
             console.log(error)
